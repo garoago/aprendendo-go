@@ -32,7 +32,7 @@ func imprimir(estatisticas map[string]int) {
 }
 
 func main() {
-	palavras := os.Args[:1]
+	palavras := os.Args[1:]
 
 	estatisticas := colherEstatisticas(palavras)
 
